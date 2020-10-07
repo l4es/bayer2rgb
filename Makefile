@@ -9,7 +9,7 @@ TARGET = bayer2rgb
 
 
 $(TARGET): $(TARGET).c
-	$(CC) $(CFLAGS) $(CXXFLAGS) $(LDFLAGS) $(TARGET).c -o $(TARGET)
+	$(CC) $(CFLAGS) $(CXXFLAGS) $(TARGET).c -o $(TARGET) $(LDFLAGS)
 	
 	
 clean:
